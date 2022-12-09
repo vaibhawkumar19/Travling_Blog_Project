@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Travel package Booking</title>
+    <style>
+        .tex{
+            font-size: 20px;
+            font-weight:25;
+            color: rgb(12, 6, 6);
+        }
+.box{
+    margin-left:5%;
+}
+        
+    </style>
+</head>
+<body>
+    
+    <h1><em>Travling Zone</em></h1>
+    
+    <div style="position: relative"><img src="travling.webp" width="100%">
+    <form action="/action_page.php" style="position:absolute; top: 10px;">
+        <div class="box">
+    <div class="tex">
+        <form>
+        <label>First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label>Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label>Mobile:</label>
+        <input type="text" id="m" name="m"><br><br>
+
+        <label>Select your Package</label>
+        <select name="Goa">Goa
+            <option value="Ratnageri">Ratnamgeri</option>
+            <option value="Malvan">Malvan</option>
+            <option value="Other">other</option><br>
+        </select><br><br>
+        <label for="text">If Other the write here</label>
+        <input type="text" id="if" name="if"><br><br>
+
+             <lebel for="text">Starting from:</lebel>
+        <input type="text" id="fr" name="from"><br><br>
+        <label for="text">Distination:</label>
+        <input type="text" id="to"name="to"><br>
+        <h3></h3>
+        
+        <lable>Arrival Date</lable>
+        <input type="date" placeholder="d/m/y"><br><br>
+       
+        <input type="checkbox" id="v1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Do you have addhar</label><br>
+        <label for="text">Addhar Number</label>
+        <input type="text" id="Addhar Number"name="Addhar Number"><br><br>
+
+        <label> What would you want to avail?</label><br>
+        Fooding<input type="checkbox"><br>
+        Night party<input type="checkbox"><br>
+        sight Seeing<input type="checkbox"><br><br>
+
+        <label> Choos your travling mode</label><br>
+        
+        <input type="radio" name="r"> Bus
+        <input type="radio" name="r"> train
+        <input type="radio" name="r"> Flight <br><br>
+
+        <label> Term & Condition</label><br>
+        
+        <input type="radio" name="r"> I Agree
+        <input type="radio" name="r"> Not Comfotable<br><br>
+        
+       
+        <input type="Submit" name="submit">
+        <input type="Reset" name="Reset"> 
+    </div>        
+    </div>
+</form>
+      </form>
+    </div>
+</body>
+</html>
